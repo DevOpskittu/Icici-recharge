@@ -1,0 +1,7 @@
+[config]
+package.views=WEB-INF/ICICI
+package.base=ICICI
+
+[actions]
+*         /                           Base.index
+*         /{class}/{method}           {class}.{method}
